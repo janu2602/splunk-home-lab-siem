@@ -31,6 +31,7 @@ The dashboard provides live visibility into failed logins, process executions, a
 The following configurations were manually tuned on the Windows Universal Forwarder to define the data pipeline:
 **inputs.conf**
 Defines the specific event channels (Security, System, Application, and Sysmon) to be collected.
+
 [WinEventLog://Security]
 index = main
 disabled = false
